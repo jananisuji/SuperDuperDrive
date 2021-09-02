@@ -1,9 +1,9 @@
-CREATE USER IF NOT EXISTS 'sdrive_admin'@'localhost' IDENTIFIED BY 'admin1234';
+-- CREATE USER IF NOT EXISTS 'sdrive_admin'@'localhost' IDENTIFIED BY 'admin1234';
 
 CREATE DATABASE IF NOT EXISTS drivedb;
 USE drivedb;
 
-GRANT ALL PRIVILEGES ON drivedb TO 'sdrive_admin'@'localhost';
+-- GRANT ALL PRIVILEGES ON drivedb TO 'sdrive_admin'@'localhost';
 
 CREATE TABLE IF NOT EXISTS USERS (
   userid INT PRIMARY KEY auto_increment,
